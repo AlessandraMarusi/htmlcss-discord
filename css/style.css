@@ -64,22 +64,48 @@ header{
 }
 
 h1 {
-    font-size: 6vh;
+    font-size: 3vw;
     padding: 6% 0;
 }
 
-p {
-    font-size: 2vh;
-    margin-bottom: 4%;
+.jumbotron p {
+    margin-bottom: 6%;
 }
 
+/* || SECTION || */
 
-.jumbo-container a {
-    margin: 2%;
-    font-size: 2vh;
+.section {
+    width: 70%;
+    margin: 0 auto;
+    padding: 5% 0;
 }
 
+ .section img {
+     width: 55%;
+ }
 
+ .imgRight {
+     float: right;
+ }
+
+.section-text {
+    float: right;
+    width: 33%;
+    padding-top: 2.5%;
+}
+
+.textLeft {
+    float: left;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+.section p {
+    padding-top: 7%;
+    font-size: 1.1vw;
+}
 
 
 /* || BUTTON GENERAL || */
@@ -92,8 +118,11 @@ p {
 
 .btnLarge {
     background-color: white;
-    padding: 15px 30px;
+    /* padding: 15px 30px; */
+    padding: 2% 4%;
     border-radius: 40px;
+    font-size: 1vw;
+    margin: 2%;
 }
 
 /* || LINK GENERAL || */
@@ -109,7 +138,7 @@ a {
     background-color: #0E0E0E;
 }
 
-/* || TEXT COLORS || */
+/* || TEXT || */
 
 .textColor-Black {
     color: #0E0E0E;
