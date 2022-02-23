@@ -73,6 +73,7 @@ h1 {
 
 .jumbotron p {
     margin-bottom: 6%;
+    font-size: 1.2vw;
 }
 
 /* || SECTION 1|| */
@@ -107,9 +108,14 @@ h1 {
 }
 
 .section-scarica {
-    width: 45%;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
+}
+
+.section-scarica .btnLarge {
+    font-size: 1.2vw;
+    padding: 3% 5%;
 }
 
 .textLeft {
@@ -120,12 +126,12 @@ h1 {
     font-size: 3vw;
 }
 
-h3{
+.section-scarica h3{
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     padding-top: 10%;
     margin-bottom: 8%;
 }
