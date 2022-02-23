@@ -11,6 +11,8 @@
     clear: both;
 }
 
+/* !!! NAV BAR DA ALLINEARE !!!*/
+
 /* || HEADER || */
 header{
     background-color: #255EE9;
@@ -23,7 +25,6 @@ header{
     width: 80%;
     margin: 0 auto;
     padding: 3% 0;
-    
 }
 
 .logo {
@@ -36,6 +37,7 @@ header{
 #logIn a{
     color: black;
 }
+
 /* || LISTA ||*/
 .top-nav ul {
     list-style: none;
@@ -72,16 +74,19 @@ h1 {
     margin-bottom: 6%;
 }
 
-/* || SECTION || */
-
+/* || SECTION 1|| */
 .section {
     width: 70%;
     margin: 0 auto;
     padding: 5% 0;
 }
 
- .section img {
+ .section img:first-child {
      width: 55%;
+ }
+
+ .largeImg {
+     width: 100%;
  }
 
  .imgRight {
@@ -94,12 +99,34 @@ h1 {
     padding-top: 2.5%;
 }
 
+.section-textLarge {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-scarica {
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .textLeft {
     float: left;
 }
 
-h2 {
+.section h2 {
     font-size: 3vw;
+}
+
+h3{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    font-size: 1.5vw;
+    padding-top: 10%;
+    margin-bottom: 8%;
 }
 
 .section p {
@@ -107,9 +134,56 @@ h2 {
     font-size: 1.1vw;
 }
 
+/* || FOOTER || */
+footer{
+    background-color: #23272A;
+    color: white;
+}
+
+.container-footer {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 5%;
+    
+}
+
+.footer-colLeft {
+    float: left;
+    width: 30%;
+}
+
+footer h2, h4 {
+    color: #6F85D3;
+}
+
+footer select {
+    display: block;
+}
+
+.footer-colRight {
+    float: left;
+    width: 70%;
+}
+
+.info-link {
+    display: inline-block;
+    margin-left: 10%;
+    vertical-align: top;
+}
+.info-link a {
+    display: block;
+}
+
+.footer-bottom {
+    border: 2px solid #6F85D3;
+    padding: 0%;
+}
+
+
+
+
 
 /* || BUTTON GENERAL || */
-
 .btnSmall {
     background-color: white;
     padding: 10px 15px;
@@ -126,14 +200,12 @@ h2 {
 }
 
 /* || LINK GENERAL || */
-
 a {
     text-decoration: none;
     color: white;
 }
 
 /* || BACKGROUND COLORS || */
-
 .bgColor-black {
     background-color: #0E0E0E;
 }
@@ -142,8 +214,11 @@ a {
     background-color: #F1F1F1;
 }
 
-/* || TEXT || */
+.bgColor-purple {
+    background-color: #6F85D3;
+}
 
+/* || TEXT || */
 .textColor-Black {
     color: #0E0E0E;
 }
@@ -153,6 +228,7 @@ a {
     margin-bottom: 0px;
     display: block;
 }
+
 .rotate {
     transform: rotate(0.5turn);
 }
