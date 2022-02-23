@@ -12,8 +12,6 @@
     clear: both;
 }
 
-/* !!! NAV BAR DA ALLINEARE !!!*/
-
 /* || HEADER || */
 header{
     background-color: #255EE9;
@@ -32,6 +30,11 @@ header{
 .logo {
     display: inline-block;
     vertical-align: middle;
+    width: 10%;
+}
+
+.logo img {
+    width: 100%;
 }
 #logIn {
     vertical-align: bottom;
@@ -61,8 +64,7 @@ header{
 .jumbotron{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    min-height: 546px;
-    
+    height: 30vw;
 }
 
 .jumbo-container {
