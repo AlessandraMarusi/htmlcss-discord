@@ -23,16 +23,20 @@ header{
 .top-nav {
     text-align: center;
     text-transform: capitalize;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     padding: 3% 0;
+    
 }
 
 .logo {
-    float: left;
+    display: inline-block;
+    vertical-align: middle;
 }
 #logIn {
-    float: right;
+    vertical-align: bottom;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 #logIn a{
@@ -42,13 +46,15 @@ header{
 /* || LISTA ||*/
 .top-nav ul {
     list-style: none;
-    float: left;
+    margin: 0 auto;
     width: 80%;
+    display: inline-block;
 }
 
 .top-nav li {
     display: inline-block;
     padding: 0 2%;
+    font-size: 1vw;
 }
 
 /* JUMBOTRON */
