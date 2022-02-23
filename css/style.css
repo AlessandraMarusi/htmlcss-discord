@@ -53,25 +53,46 @@ header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     min-height: 546px;
+    
 }
 
 .jumbo-container {
-    width: 30%;
+    width: 40%;
     margin: 0 auto;
     text-align: center;
     color: white;
 }
 
-.jumbo-container .btn a {
-    
+h1 {
+    font-size: 6vh;
+    padding: 6% 0;
 }
+
+p {
+    font-size: 2vh;
+    margin-bottom: 4%;
+}
+
+
+.jumbo-container a {
+    margin: 2%;
+    font-size: 2vh;
+}
+
+
 
 
 /* || BUTTON GENERAL || */
 
-.btn {
+.btnSmall {
     background-color: white;
-    padding: 10px 13px;
+    padding: 10px 15px;
+    border-radius: 40px;
+}
+
+.btnLarge {
+    background-color: white;
+    padding: 15px 30px;
     border-radius: 40px;
 }
 
@@ -86,4 +107,10 @@ a {
 
 .bgColor-black {
     background-color: #0E0E0E;
+}
+
+/* || TEXT COLORS || */
+
+.textColor-Black {
+    color: #0E0E0E;
 }
