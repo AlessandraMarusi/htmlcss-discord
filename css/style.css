@@ -25,7 +25,7 @@ header{
     text-transform: capitalize;
     width: 70%;
     margin: 0 auto;
-    padding: 3% 0;
+    padding: 2% 0;
     
 }
 
@@ -86,7 +86,7 @@ h1 {
 .section {
     width: 70%;
     margin: 0 auto;
-    padding: 5% 0;
+    padding: 8% 0;
 }
 
  .section img:first-child {
@@ -115,7 +115,7 @@ h1 {
 
 .section-scarica {
     width: 50%;
-    margin: 0 auto;
+    margin: 0 auto 5%;
     text-align: center;
 }
 
@@ -160,6 +160,7 @@ footer{
     
 }
 
+/* || COLUMN LEFT || */
 .footer-colLeft {
     float: left;
     width: 25%;
@@ -194,6 +195,7 @@ footer select option {
 footer select:hover {
     cursor: pointer;
 }
+
 .footer-icons {
     display: block;
 }
@@ -206,6 +208,8 @@ footer select:hover {
     cursor: pointer;
 }
 
+
+/* || COLUMN RIGHT || */
 .footer-colRight {
     float: left;
     width: 75%;
@@ -222,6 +226,8 @@ footer select:hover {
     margin: 10% 0;
 }
 
+
+/* || BOTTOM || */
 .footer-bottom {
     border-top: 1px solid #6F85D3;
     display: inline-block;
@@ -229,7 +235,7 @@ footer select:hover {
 }
 
 .footer-bottom img,.footer-bottom .btnSmall {
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .footer-bottom img {
@@ -238,6 +244,7 @@ footer select:hover {
 
 .footer-bottom .btnSmall {
     float: right;
+    padding: 0.8% 1.6%;
 }
 
 
@@ -247,8 +254,10 @@ footer select:hover {
 /* || BUTTON GENERAL || */
 .btnSmall {
     background-color: white;
-    padding: 10px 15px;
+    padding: 25% 35%;
     border-radius: 40px;
+    font-weight: bold;
+    font-size: 0.8vw;
 }
 
 .btnLarge {
