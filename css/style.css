@@ -170,7 +170,28 @@ footer h4, .info-link a {
 }
 
 footer select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 5% 0;
+}   
+footer select option {
+    color: black;
+}
+
+footer select:hover {
+    cursor: pointer;
+}
+.footer-icons {
     display: block;
+}
+
+.footer-colLeft .fa-brands {
+    padding: 3%;
+    font-size: 1.2vw;
+}
+.footer-colLeft .fa-brands:hover {
+    cursor: pointer;
 }
 
 .footer-colRight {
@@ -260,3 +281,9 @@ a {
 .rotate {
     transform: rotate(0.5turn);
 }
+
+
+/* PROVA SELECT */
+
+
+
