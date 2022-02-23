@@ -138,8 +138,17 @@ a {
     background-color: #0E0E0E;
 }
 
+.bgColor-gray {
+    background-color: #F1F1F1;
+}
+
 /* || TEXT || */
 
 .textColor-Black {
     color: #0E0E0E;
+}
+
+.wave {
+    opacity: 6%;
+    margin-bottom: 0px;
 }
